@@ -1,0 +1,81 @@
+*{
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    background-color: #05072F;
+    height: 150px;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{ 
+    width: 314px;
+    height: 41px;
+    top: 62px;
+    left: 62px;
+}
+
+.fecaf{
+    color: #CF092D;
+}
+
+.access{
+    flex-grow: 1;
+}
+
+.access ul{
+    display:flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 0;
+}
+.access ul li{
+    margin: 20px;
+}
+
+.hlc{
+    display:flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+.help{
+    display:flex;
+    padding: 0;
+}
+
+.login{
+    display:flex;
+    padding: 0;
+}
+
+
+header{
+    background-color: #01041B
+}
+
+.music{
+    color: #CF092D;
+}
+
+.cacc{
+    color: #CF092D;
+}
+
+.download{
+    background-color: #CF092D;
+}
+
+.startFT{
+    background-color: #410093;
+}
+
+
+footer{
+    background-color: #05072F
+}
