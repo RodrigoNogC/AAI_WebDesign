@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Padronização do Header */
+header{
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    background-color: #05072F;
+    color: white;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    padding: 10px;
+}
+
+/* Mundanças no NavBar */
+nav{
+    align-items: center;
+    width: 60vw;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo{ 
+    font-size: 15pt;
+    margin: 50px;
+}
+
+/* Muda a cor dos Textos celecionados para vermelho */
+.redtxt{
+    color: #CF092D;
+}
+
+/* Mudanças nas informações da navbar */
+.access{
+    display: flex; 
+    align-items: center;
+    width: 40vw;
+    padding: 5px;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.access ul{
+    display:flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 0;
+}
+.access ul li{
+    margin: 20px;
+}
+
+/* Divisão entre Login Help e Criação de conta  */
+.hlc{
+    margin: 70px 60px;
+    display: flex;
+}
+
+.hl{
+    list-style: none;
+    margin-right: 240px;
+    align-items: center;
+}
+
+.helpl{
+    padding: 20px, 0px;
+}
+
+/* Barra entre Login e Help */
+.barra{
+    margin: 3px;
+    color: #CF092D;
+    font-size: 20pt;
+}
+
+/* Alteração do Create an Account */
+.cacc{
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: auto;
+    padding: 10px;
+}
+.cacc > a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.create{
+    margin-right: 20px;
+    margin-left: 50px;
+    color: #cf092d;
+    text-decoration: none;
+}
+
+/* Main */
+main{
+    background-color: #01041B;
+    display: flex;
+    color: white;
+}
+
+/* Alteração da escrita do Main */
+.pt1{
+    flex: 50%;
+    margin: 40px;
+}
+
+.hd{
+    font-size: 50pt;
+    margin-left: 30px;
+    width: 400px;
+}
+.hd > p{
+    margin: 5px;
+    font-size: 20pt;
+    width: 500px;
+}
+
+
+/* Alteração na Imagem do Album  */
+
+.pt2{
+    flex: 50%;
+    justify-content: right;
+    height: 569px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+}
+
+/* Alteração nos Buttons */
+.download{
+    background-color: #cf092d;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 25px;
+        margin-left: 30px;
+}
+
+.startFT{
+    background-color: #410093;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 25px;
+        margin-left: 30px;
+}
+
+/* Alteração do Footer */
+
+footer{
+    background-color: #05072F;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
